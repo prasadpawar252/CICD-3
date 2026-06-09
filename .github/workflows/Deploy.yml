@@ -42,5 +42,5 @@ jobs:
         run: |
           aws ecs update-service \
             --cluster default \
-            --service react-app-cluster\
+            --service react-app-service \
             --force-new-deployment
