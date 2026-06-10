@@ -44,3 +44,6 @@ jobs:
             --cluster default \
             --service react-app-cluster \
             --force-new-deployment
+
+      - name: deployment success message
+        run: echo "Deployment to ECS completed successfully!"
