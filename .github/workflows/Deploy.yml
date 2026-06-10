@@ -42,7 +42,7 @@ jobs:
         run: |
           aws ecs update-service \
             --cluster dev-cluster \
-            --service react-app-cluster \
+            --service  react-app-56ed \
             --force-new-deployment
 
       - name: deployment success message
